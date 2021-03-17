@@ -1,0 +1,22 @@
+-muwx
+-i .pio\build\stc89c52rc\firmware.hex
+-M
+-Y
+-I 0x0100
+-X 0x0100
+-C 0x2000
+-b HOME = 0x0000
+-b XSEG = 0x0001
+-b PSEG = 0x0001
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k .pio\build\stc89c52rc
+-k C:\Users\tianyu.xie\.platformio\packages\toolchain-sdcc\bin\..\lib\small
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+.pio\build\stc89c52rc\src\main.rel
+
+-e
